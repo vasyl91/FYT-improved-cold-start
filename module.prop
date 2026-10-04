@@ -1,0 +1,6 @@
+id=fyt_improved_cold_start
+name=FYT Improved Cold Start
+version=v1
+versionCode=1
+author=vasyl91
+description=Fixes two cold-start problems of FYT head units (Android 10): removes the ~10 s system freeze by filling Android's APEX package cache during the boot animation, and sets the clock from the network when it starts at the ROM's build date, so apps have internet right after Wi-Fi connects. Log: /data/adb/modules/fyt_improved_cold_start/boot.log
